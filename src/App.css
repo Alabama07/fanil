@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #667b8b;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+
+}
+.logo{
+    color:#32373b ;
+    font-size: 80px;
+}

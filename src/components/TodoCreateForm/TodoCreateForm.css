@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+input{border: none;outline: none;}
+button{border: none;}
+
+.search-form{
+    background-color: aqua;
+    width: 60vw;
+    height: 5.5vh;
+    position: relative;
+    top: 13vh;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+.search-form__input{
+    width: 70%;
+    height: 100%;
+    font-size: 20px;
+
+}
+
+.search-form__input-date{
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+
+}
+
+.search-form__button{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #576d80 ;
+}
+
+.search-form__button:hover{
+    background-color: #425464 ;
+}

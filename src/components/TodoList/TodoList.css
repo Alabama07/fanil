@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+input{border: none; outline: none;}
+button{border: none;}
+
+ul{
+    list-style-type: none;
+    width: 55vw;
+    height: 6vh;
+    position: relative;
+    top: 15vh;
+    left: 2.5vw;
+}
+
+li{
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid transparent;
+    margin-top: 2vw;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+.todo-list__item{
+    width: 100%;
+    height: 100%;
+    background-color: #596b79;
+    display: flex;
+}
+
+.todo-list__input-text{
+    width: 70%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.todo-list__btn-done{
+    width: 15%;
+    background-color: #576d80 ;
+    color: black;
+    font-size: 18px;
+}
+
+.todo-list__btn-done:hover{
+    background-color: #516679;
+
+}
+
+.todo-list__btn-delete{
+    width: 15%;
+    background-color: #465b6d;
+}
+
+.todo-list__btn-delete:hover{
+    background-color: #4e6275 ;
+
+}
+
+.delete-img{
+    width: 15%;
+}
+
+.todo-list__inf-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    align-items: center;
+    left: 70.3%;
+    width: 29.7%;
+    height: auto;
+    right: 5%;
+    background-color: #4a5761;
+    border-radius: 0px 0px 15px 15px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
+}
+
+.todo-list__item__date{
+    font-size: 12px;
+    opacity: 0.5;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    /* background-color: azure; */
+}
+
+.deadline{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    width: 100%;
+    height: 50%;
+    color: rgb(216, 214, 214);
+    padding-bottom: 3px;
+    /* background-color: aqua; */
+}
+
+.date-block__time{
+    padding-left: 5px;
+    color: rgb(216, 214, 214);
+}
+
+.date-block__date{
+    color: rgb(216, 214, 214);
+}
+
+.change-img{
+    position: relative;
+    top: 1px;
+    left: 3px;
+    width: 45%;
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+} 
+.btn-change-deadline{
+    background-color: transparent;
+    border: none;
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+
+}
+
+.completed {
+    border-bottom: 5px solid  #20603D;
+}
+
+.no-completed{
+    border-bottom: 5px solid  #480607;
+}
